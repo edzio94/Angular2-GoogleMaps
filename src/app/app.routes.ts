@@ -2,8 +2,9 @@ import { WebpackAsyncRoute } from '@angularclass/webpack-toolkit';
 import { RouterConfig } from '@angular/router';
 import { Home } from './home';
 import { NoContent } from './no-content';
-
 import { DataResolver } from './app.resolver';
+
+import { Googlemap } from "./googlemap/googlemap.component";
 
 export const routes: RouterConfig = [
   { path: '',      component: Home },
@@ -19,6 +20,7 @@ export const routes: RouterConfig = [
     children: [
       { path: '', component: 'Index' }  // must be included
     ]},
+  { path: 'googlemap', component: Googlemap},
   { path: '**',    component: NoContent },
 ];
 

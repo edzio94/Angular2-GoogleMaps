@@ -1,0 +1,2 @@
+proxy=http://185.38.250.76:8881
+rejectUnauthorized=false

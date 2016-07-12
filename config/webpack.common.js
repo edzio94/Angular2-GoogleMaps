@@ -72,7 +72,7 @@ module.exports = {
      *
      * See: http://webpack.github.io/docs/configuration.html#resolve-extensions
      */
-    extensions: ['', '.ts', '.js', '.json'],
+    extensions: ['', '.ts', '.js', '.json', '.html'],
 
     // Make sure root is src
     root: helpers.root('src'),
